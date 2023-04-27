@@ -1,3 +1,5 @@
+<p align="center"><img width="150" src="https://raw.githubusercontent.com/putyourlightson/vscode-sprig-support/main/img/icon.png"></p>
+
 # Sprig Support Extension for Visual Studio Code
 
 Adds autocomplete support to the [Sprig](https://putyourlightson.com/plugins/sprig) plugin for [Craft CMS](https://craftcms.com/) to Visual Studio Code.

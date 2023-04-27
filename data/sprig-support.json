@@ -455,7 +455,7 @@
       "valueSet": "s-trigger"
     },
     {
-      "name": "s-val",
+      "name": "s-val:*",
       "description": "Provides a more readable way of populating the `s-vals` attribute. Replace the `*` with a lower-case name.\n\n```twig\n<button sprig s-val:page=\"{{ page + 1 }}\" s-val:limit=\"10\">Next</button>\n\n{# Equivalent to: #}\n<button sprig s-vals=\"{{ { page: page + 1, limit: 10 }|json_encode }}\">Next</button>\n```\n\nSince HTML attributes are case-insensitive, the name should always be lower-case and in `kebab-case`. Dashes will be removed and the name will be converted to `camelCase` when the variable becomes available in the template after re-rendering.\n\n```twig\n{% set myCustomPage = myCustomPage ?? '' %}\n\n<button sprig s-val:my-custom-page=\"13\">Custom Page</button>\n```",
       "references": [
         {
@@ -503,7 +503,8 @@
       "name": "s-boost",
       "values": [
         {
-          "name": "true"
+          "name": "true",
+          "description": "Boost normal anchors and form tags to use AJAX instead."
         }
       ]
     },
@@ -511,7 +512,8 @@
       "name": "s-confirm",
       "values": [
         {
-          "name": "Are you sure?"
+          "name": "Are you sure?",
+          "description": "The message to show in a `confirm()` dialog."
         }
       ]
     },
@@ -519,7 +521,8 @@
       "name": "s-disinherit",
       "values": [
         {
-          "name": "*"
+          "name": "*",
+          "description": "Disable all attribute inheritance for this element."
         }
       ]
     },
@@ -527,7 +530,8 @@
       "name": "s-encoding",
       "values": [
         {
-          "name": "multipart/form-data"
+          "name": "multipart/form-data",
+          "description": "Set the request encoding to `multipart/form-data`."
         }
       ]
     },
@@ -535,7 +539,8 @@
       "name": "s-history",
       "values": [
         {
-          "name": "false"
+          "name": "false",
+          "description": "Prevent sensitive data being saved to the localStorage cache when taking a snapshot of the page state."
         }
       ]
     },
@@ -543,7 +548,8 @@
       "name": "s-method",
       "values": [
         {
-          "name": "post"
+          "name": "post",
+          "description": "Sends a `POST` request."
         }
       ]
     },
@@ -551,22 +557,36 @@
       "name": "s-swap",
       "values": [
         {
-          "name": "innerHTML"
+          "name": "innerHTML",
+          "description": "The default, replace the inner html of the target element."
         },
         {
-          "name": "outerHTML"
+          "name": "outerHTML",
+          "description": "Replace the entire target element with the response."
         },
         {
-          "name": "beforebegin"
+          "name": "beforebegin",
+          "description": "Insert the response before the target element."
         },
         {
-          "name": "afterbegin"
+          "name": "afterbegin",
+          "description": "Insert the response before the first child of the target element."
         },
         {
-          "name": "beforeend"
+          "name": "beforeend",
+          "description": "Insert the response after the last child of the target element."
         },
         {
-          "name": "afterend"
+          "name": "afterend",
+          "description": "Insert the response after the target element."
+        },
+        {
+          "name": "delete",
+          "description": "Deletes the target element regardless of the response."
+        },
+        {
+          "name": "none",
+          "description": "Does not append content from response (out of band items will still be processed)."
         }
       ]
     },
@@ -574,7 +594,12 @@
       "name": "s-target",
       "values": [
         {
-          "name": "this"
+          "name": "this",
+          "description": "The element that the `s-target` attribute is on."
+        },
+        {
+          "name": "#results",
+          "description": "The element with an ID of `results`."
         }
       ]
     },
@@ -582,16 +607,20 @@
       "name": "s-trigger",
       "values": [
         {
-          "name": "click"
+          "name": "click",
+          "description": "A `click` event."
         },
         {
-          "name": "change"
+          "name": "change",
+          "description": "A `change` event."
         },
         {
-          "name": "submit"
+          "name": "submit",
+          "description": "A `submit` event."
         },
         {
-          "name": "keyup changed delay:300ms"
+          "name": "keyup changed delay:300ms",
+          "description": "A `keyup` event, only if the value of the element has changed, with a debounce of 300 milliseconds."
         }
       ]
     },
@@ -599,7 +628,8 @@
       "name": "s-validate",
       "values": [
         {
-          "name": "validate"
+          "name": "true",
+          "description": "Enables validation on a non-form element."
         }
       ]
     }
