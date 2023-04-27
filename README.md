@@ -1,4 +1,4 @@
-<p align="center"><img width="150" src="[https://raw.githubusercontent.com/putyourlightson/vscode-sprig-support/main/img/icon.png](https://user-images.githubusercontent.com/57572400/234913202-bdd9c6da-68b6-4324-83b0-83a1e0eaeb83.png)"></p>
+<p align="center"><img width="150" src="https://user-images.githubusercontent.com/57572400/234913202-bdd9c6da-68b6-4324-83b0-83a1e0eaeb83.png"></p>
 
 # Sprig Support Extension for Visual Studio Code
 
