@@ -1,5 +1,13 @@
 # Release Notes for Sprig Support Extension
 
+## 1.0.4 - 2023-04-27
+### Fixed
+- Fixed an incorrect link.
+
+## 1.0.3 - 2023-04-27
+### Fixed
+- Fixed an incorrect link.
+
 ## 1.0.2 - 2023-04-27
 ### Fixed
 - Fixed typo in display name.
