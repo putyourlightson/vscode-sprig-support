@@ -22,6 +22,7 @@
 		"@vscode/vsce": "^2.19.0"
 	},
 	"scripts": {
-	  "build": "npx vsce package"
+	  "build": "npx vsce package",
+	  "publish": "vsce publish process.env.npm_package_version"
 	}
 }
