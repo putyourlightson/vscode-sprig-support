@@ -1,10 +1,10 @@
 {
 	"name": "vscode-sprig-support",
-	"displayName": "Sprig Suport",
+	"displayName": "Sprig Support",
 	"description": "Adds autocomplete support for the Sprig plugin for Craft CMS to Visual Studio Code.",
 	"author": "Ben Croker",
-	"icon": "img/icon.png",
-	"version": "1.0.0",
+	"icon": "src/icon.png",
+	"version": "1.0.2",
 	"publisher": "putyourlightson",
 	"repository": "https://github.com/putyourlightson/vscode-sprig-support",
 	"license": "MIT",
@@ -14,7 +14,7 @@
 	"contributes": {
 		"html": {
 			"customData": [
-				"./data/sprig-support.json"
+				"./src/sprig-support.json"
 			]
 		}
 	},

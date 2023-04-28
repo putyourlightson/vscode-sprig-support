@@ -504,7 +504,13 @@
       "values": [
         {
           "name": "true",
-          "description": "Boost normal anchors and form tags to use AJAX instead."
+          "description": "Boost normal anchors and form tags to use AJAX instead.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-boost/"
+            }
+          ]
         }
       ]
     },
@@ -513,7 +519,13 @@
       "values": [
         {
           "name": "Are you sure?",
-          "description": "The message to show in a `confirm()` dialog."
+          "description": "The message to show in a `confirm()` dialog.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-confirm/"
+            }
+          ]
         }
       ]
     },
@@ -522,7 +534,13 @@
       "values": [
         {
           "name": "*",
-          "description": "Disable all attribute inheritance for this element."
+          "description": "Disable all attribute inheritance for this element.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-disinherit/"
+            }
+          ]
         }
       ]
     },
@@ -531,7 +549,13 @@
       "values": [
         {
           "name": "multipart/form-data",
-          "description": "Set the request encoding to `multipart/form-data`."
+          "description": "Set the request encoding to `multipart/form-data`.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-encoding/"
+            }
+          ]
         }
       ]
     },
@@ -540,7 +564,13 @@
       "values": [
         {
           "name": "false",
-          "description": "Prevent sensitive data being saved to the localStorage cache when taking a snapshot of the page state."
+          "description": "Prevent sensitive data being saved to the localStorage cache when taking a snapshot of the page state.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-history/"
+            }
+          ]
         }
       ]
     },
@@ -549,7 +579,13 @@
       "values": [
         {
           "name": "post",
-          "description": "Sends a `POST` request."
+          "description": "Sends a `POST` request.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-method/"
+            }
+          ]
         }
       ]
     },
@@ -558,35 +594,83 @@
       "values": [
         {
           "name": "innerHTML",
-          "description": "The default, replace the inner html of the target element."
+          "description": "The default, replace the inner html of the target element.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-swap/"
+            }
+          ]
         },
         {
           "name": "outerHTML",
-          "description": "Replace the entire target element with the response."
+          "description": "Replace the entire target element with the response.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-swap/"
+            }
+          ]
         },
         {
           "name": "beforebegin",
-          "description": "Insert the response before the target element."
+          "description": "Insert the response before the target element.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-swap/"
+            }
+          ]
         },
         {
           "name": "afterbegin",
-          "description": "Insert the response before the first child of the target element."
+          "description": "Insert the response before the first child of the target element.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-swap/"
+            }
+          ]
         },
         {
           "name": "beforeend",
-          "description": "Insert the response after the last child of the target element."
+          "description": "Insert the response after the last child of the target element.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-swap/"
+            }
+          ]
         },
         {
           "name": "afterend",
-          "description": "Insert the response after the target element."
+          "description": "Insert the response after the target element.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-swap/"
+            }
+          ]
         },
         {
           "name": "delete",
-          "description": "Deletes the target element regardless of the response."
+          "description": "Deletes the target element regardless of the response.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-swap/"
+            }
+          ]
         },
         {
           "name": "none",
-          "description": "Does not append content from response (out of band items will still be processed)."
+          "description": "Does not append content from response (out of band items will still be processed).",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-swap/"
+            }
+          ]
         }
       ]
     },
@@ -595,11 +679,23 @@
       "values": [
         {
           "name": "this",
-          "description": "The element that the `s-target` attribute is on."
+          "description": "The element that the `s-target` attribute is on.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-target/"
+            }
+          ]
         },
         {
           "name": "#results",
-          "description": "The element with an ID of `results`."
+          "description": "The element with an ID of `results`.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-target/"
+            }
+          ]
         }
       ]
     },
@@ -608,19 +704,43 @@
       "values": [
         {
           "name": "click",
-          "description": "A `click` event."
+          "description": "A `click` event.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-trigger/"
+            }
+          ]
         },
         {
           "name": "change",
-          "description": "A `change` event."
+          "description": "A `change` event.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-trigger/"
+            }
+          ]
         },
         {
           "name": "submit",
-          "description": "A `submit` event."
+          "description": "A `submit` event.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-trigger/"
+            }
+          ]
         },
         {
           "name": "keyup changed delay:300ms",
-          "description": "A `keyup` event, only if the value of the element has changed, with a debounce of 300 milliseconds."
+          "description": "A `keyup` event, only if the value of the element has changed, with a debounce of 300 milliseconds.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-trigger/"
+            }
+          ]
         }
       ]
     },
@@ -629,7 +749,13 @@
       "values": [
         {
           "name": "true",
-          "description": "Enables validation on a non-form element."
+          "description": "Enables validation on a non-form element.",
+          "references": [
+            {
+              "name": "Attribute reference",
+              "url": "https://htmx.org/attributes/hx-validate/"
+            }
+          ]
         }
       ]
     }
