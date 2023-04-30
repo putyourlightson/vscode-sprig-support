@@ -1,28 +1,39 @@
 {
-	"name": "vscode-sprig-support",
-	"displayName": "Sprig Support",
-	"description": "Adds autocomplete support for the Sprig plugin for Craft CMS to Visual Studio Code.",
-	"author": "Ben Croker",
-	"icon": "src/icon.png",
-	"version": "1.0.4",
-	"publisher": "putyourlightson",
-	"repository": "https://github.com/putyourlightson/vscode-sprig-support",
-	"license": "MIT",
-	"engines": {
-		"vscode": "^1.63.0"
-	},
-	"contributes": {
-		"html": {
-			"customData": [
-				"./src/sprig-support.json"
-			]
-		}
-	},
-	"devDependencies": {
-		"@vscode/vsce": "^2.19.0"
-	},
-	"scripts": {
-	  "build": "npx vsce package",
-	  "publish": "npx vsce publish $npm_package_version"
-	}
+  "name": "vscode-sprig-support",
+  "version": "1.0.5",
+  "displayName": "Sprig Support",
+  "description": "Adds autocomplete support for the Sprig plugin for Craft CMS to Visual Studio Code.",
+  "author": "Ben Croker",
+  "publisher": "putyourlightson",
+  "license": "MIT",
+  "repository": "https://github.com/putyourlightson/vscode-sprig-support",
+  "sponsor": {
+    "url": "https://github.com/sponsors/bencroker"
+  },
+  "keywords": [
+    "Sprig",
+    "Craft CMS"
+  ],
+  "icon": "./src/icon.png",
+  "galleryBanner": {
+    "color": "#bee3f8",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "contributes": {
+    "html": {
+      "customData": [
+        "./src/sprig-support.json"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0"
+  },
+  "scripts": {
+    "build": "npm exec vsce package",
+    "publish": "npm exec vsce publish $npm_package_version"
+  }
 }
