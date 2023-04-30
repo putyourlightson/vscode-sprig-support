@@ -1,5 +1,9 @@
 # Release Notes for Sprig Support Extension
 
+## 1.0.6 - 2023-04-29
+### Fixed
+- Fixed the gallery banner theme.
+
 ## 1.0.5 - 2023-04-29
 ### Added
 - Added a sponsorship URL, categories and a gallery banner colour to the extension.
