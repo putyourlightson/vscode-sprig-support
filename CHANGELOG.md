@@ -1,5 +1,9 @@
 # Release Notes for Sprig Support Extension
 
+## 1.0.7 - 2024-02-28
+### Added
+- Added explicit autocomplete support for Twig files.
+
 ## 1.0.6 - 2023-04-29
 ### Fixed
 - Fixed the gallery banner theme.
